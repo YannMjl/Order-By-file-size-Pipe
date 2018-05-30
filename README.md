@@ -7,15 +7,21 @@ These pipes are design for sorting and formating data in Angular projects.
 
 ## Usage
 
-### Order By pipe
-
 Create a your_file_name.pipe in you angular project and copy the code need to create the pipe.
 Or simply download the file from github and added them to your angular project.
 
-##### In HTML template
+##### In HTML template 
+
+###### Order By pipe
 
 ```html
 {{ collection | orderBy: order : reverse }}
+```
+###### Data zise By pipe
+This pipe is use to display and format data in KB, MB, GB, TB, and PB.
+
+```html
+{{ collection | fileSize }}
 ```
 
 ### Arguments
@@ -84,4 +90,4 @@ export class AppComponent implements OnInit {
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) © [Yann Mulonda](https://github.com/YannMjl) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) © [Yann Mulonda](https://github.com/YannMjl) file for details.
