@@ -84,4 +84,4 @@ export class AppComponent implements OnInit {
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) © [Yann Mulonda](https://github.com/YannMjl) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) © [Yann Mulonda](https://github.com/YannMjl) file for details.
