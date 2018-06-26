@@ -10,14 +10,14 @@ These pipes are design for sorting and formating data in Angular projects.
 Create a your_file_name.pipe in you angular project and copy the code need to create the pipe.
 Or simply download the file from github and added them to your angular project.
 
-##### In HTML template 
+### In HTML template 
 
-###### Order By pipe
+#### Order By pipe
 
 ```html
 {{ collection | orderBy: order : reverse }}
 ```
-###### Data zise By pipe
+#### Data zise By pipe
 This pipe is use to display and format data in KB, MB, GB, TB, and PB.
 
 ```html
