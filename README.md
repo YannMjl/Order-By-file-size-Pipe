@@ -1,6 +1,7 @@
 # Order-By-file-size-Pipe
 
 This project contains 2 pipe that help format and display data in Angular.
+
 ## Getting Started
 
 These pipes are design for sorting and formating data in Angular projects.
